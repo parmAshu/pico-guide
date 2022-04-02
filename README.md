@@ -7,7 +7,7 @@ RP2040 is a **dual** ARM Cortex-M0+ microcontroller developed by the **Raspberry
 ![pico-board](images/pico1.png)
 *image courtsey - [raspberry pi foundation](https://www.raspberrypi.org/documentation/rp2040/getting-started/)*
 
-Several other companies have also designed development boards based on RP2040 microcontroller. However, the pico board from raspberry pi foundation is the best option as it features every thing needed by RP2040 microcontroller to function; moreover, it's form-factor is such that it can be used in industrial products as a surface mount component. Morever, the pico board is every cheap with an onboard buck-boost voltage regulator to power the microcontoller.
+Several other companies have also designed development boards based on RP2040 microcontroller. However, the pico board from raspberry pi foundation is the best option as it features every thing needed by RP2040 microcontroller to function; moreover, it's form-factor is such that it can be used in industrial products as a surface mount component. Morever, pico board is very cheap and features an onboard buck-boost voltage regulator to power the microcontoller.
 
 **For more information have a look at :**
 
@@ -22,7 +22,7 @@ Several other companies have also designed development boards based on RP2040 mi
 <br/>
 <br/>
 
-## Setup and build guides
+## Project Setup and build guides
 ---
 1. [MacOS guide](guides/macOS.md)
 2. [Windows guide](guides/windows.md)

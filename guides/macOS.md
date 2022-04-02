@@ -1,13 +1,13 @@
 ## Setup toolchain and SDK
 ---
 
-1. Firstly, we need to download the official C/C++ SDK form Rapsberry Pi foundation. So, nvaigate to the directory where you want your SDK to be stored and run the following command -
+1. Firstly, we need to download the official C/C++ SDK from Raspberry Pi foundation. So, navigate to the directory where you want the SDK to be stored and run the following command -
 
 `git clone -b master https://github.com/raspberrypi/pico-sdk.git`
 
-*This will create a directory named pico-sdk in the current directory*
+*This will create a directory named 'pico-sdk' in the current directory*
 
-2. For the SDK to be available while building your projects, it is necessary to create an environment variable to store the SDK directory's path. This environment variable must be name `PICO_SDK_PATH`. To do this use the following command -
+2. It is necessary to create an environment variable to store the SDK directory's path for the SDK to be available while building your projects,  This environment variable must be name `PICO_SDK_PATH`. To do this use the following command -
 
 `export PICO_SDK_PATH='PATH TO pico-sdk DIRECTORY ON YOUR SYSTEM'`
 
@@ -27,7 +27,7 @@
 
 ## Creating and building projects
 
-1. Create a directory where all your project files will live. Make sure that the `PICO_SDK_PATH` environment variable has been created (either manually or if specific in `.zshrc` or `.bashrc`.) For the purpose of explanation lets say that we create a project directory named `test`.
+1. Create a directory where all your project files will live. Make sure that the `PICO_SDK_PATH` environment variable has been created (either manually or through `.zshrc` or `.bashrc`.) For the purpose of explanation lets say that we create a project directory named `test`.
 
 2. Now you need to copy a file from the sdk. This file is named `pico_sdk_import.cmake` and lives inside `pico-sdk/external` directory. To do this you may use the following command -
 
