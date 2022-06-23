@@ -60,7 +60,7 @@
 
 5. If there are no errors in the source code, you will find the compiled executables in the build directory. 
 
-For more complex applicationo you only need to put modify the `CMakeLists.txt` file.
+For more complex application you only need to modify the `CMakeLists.txt` file.
 
 ---
 
